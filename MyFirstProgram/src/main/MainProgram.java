@@ -14,7 +14,7 @@ public class MainProgram {
 	    Scanner myObj = new Scanner(System.in);  // Create a Scanner object
 	    boolean hasNoUserName = userName.isEmpty();
 	    if (hasNoUserName) {
-	    	System.out.println("Dear User, please enter your name:");
+	    	System.out.println("Hi User, please enter your name:");
 		    userName = myObj.nextLine();  // Read user input
 	    }
 		System.out.println("Hello " + userName + "!");
