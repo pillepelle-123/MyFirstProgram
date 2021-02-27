@@ -1,7 +1,6 @@
 package main;
 
 import java.util.Scanner;
-
 import programs.Calculator;
 import programs.Testing;
 
@@ -62,6 +61,10 @@ public class MainProgram {
 	    	myObj.close();
 	    }
 	    if (exit.equals("n")) {
+	    	args = new String[] {userName};
+	    	System.out.println("### Open TestApp.jar ###");
+	    	Main.main(args);
+	    	System.out.println("### Exit TestApp.jar ###");
 			MainProgram.main(args);
 	    }
 		//myObj.close();
